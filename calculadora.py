@@ -12,5 +12,13 @@ def dividir(a, b):
         return "Erro: divisão por zero"
     return a / b
 
-print("Calculadora simples em Python")
+print("Calculadora Python - Projeto DevOps")
 print("Soma:", somar(10, 5))
+
+def multiplicar(a, b):
+    return a * b
+
+def dividir(a, b):
+    if b == 0:
+        return "Erro"
+    return a / b
