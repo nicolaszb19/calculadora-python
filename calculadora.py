@@ -14,3 +14,6 @@ def dividir(a, b):
 
 print("Calculadora simples em Python")
 print("Soma:", somar(10, 5))
+
+def multiplicar(a, b):
+    return a * b
