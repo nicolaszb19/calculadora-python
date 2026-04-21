@@ -9,16 +9,8 @@ def multiplicar(a, b):
 
 def dividir(a, b):
     if b == 0:
-        return "Erro: divisão por zero"
+        return "Erro"
     return a / b
 
 print("Calculadora Python - Projeto DevOps")
 print("Soma:", somar(10, 5))
-
-def multiplicar(a, b):
-    return a * b
-
-def dividir(a, b):
-    if b == 0:
-        return "Erro"
-    return a / b
